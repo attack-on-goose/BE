@@ -1,8 +1,8 @@
-package com.poten.attackongoose.controller;
+package com.poten.attackongoose.controller.token;
 
 import com.poten.attackongoose.dto.request.TokenRequest;
 import com.poten.attackongoose.dto.response.TokenResponse;
-import com.poten.attackongoose.service.TokenService;
+import com.poten.attackongoose.service.token.TokenService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

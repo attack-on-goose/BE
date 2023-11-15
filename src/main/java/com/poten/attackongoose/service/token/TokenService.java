@@ -1,7 +1,8 @@
-package com.poten.attackongoose.service;
+package com.poten.attackongoose.service.token;
 
 import com.poten.attackongoose.config.jwt.TokenProvider;
-import com.poten.attackongoose.domain.UserAccount;
+import com.poten.attackongoose.domain.user.UserAccount;
+import com.poten.attackongoose.service.user.UserAccountService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

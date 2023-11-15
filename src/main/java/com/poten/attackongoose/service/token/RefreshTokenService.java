@@ -1,4 +1,4 @@
-package com.poten.attackongoose.service;
+package com.poten.attackongoose.service.token;
 
 import com.poten.attackongoose.domain.RefreshToken;
 import com.poten.attackongoose.repository.RefreshTokenRepository;

@@ -2,9 +2,9 @@ package com.poten.attackongoose.config.oauth;
 
 import com.poten.attackongoose.config.jwt.TokenProvider;
 import com.poten.attackongoose.domain.RefreshToken;
-import com.poten.attackongoose.domain.UserAccount;
+import com.poten.attackongoose.domain.user.UserAccount;
 import com.poten.attackongoose.repository.RefreshTokenRepository;
-import com.poten.attackongoose.service.UserAccountService;
+import com.poten.attackongoose.service.user.UserAccountService;
 import com.poten.attackongoose.util.CookieUtil;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.Authentication;

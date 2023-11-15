@@ -1,6 +1,7 @@
 package com.poten.attackongoose.domain;
 
 import com.poten.attackongoose.config.oauth.OAuth2Attributes;
+import com.poten.attackongoose.domain.user.UserAccount;
 import lombok.Getter;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -12,7 +13,7 @@ import java.util.*;
 @Getter
 public class PrincipalDetails implements OAuth2User, UserDetails {
 
-    private UserAccount userAccount;
+    private final UserAccount userAccount;
     private OAuth2Attributes oAuth2Attributes;
 
     public PrincipalDetails(UserAccount userAccount, OAuth2Attributes oAuth2Attributes) {

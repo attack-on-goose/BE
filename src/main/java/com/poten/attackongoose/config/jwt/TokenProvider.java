@@ -1,6 +1,6 @@
 package com.poten.attackongoose.config.jwt;
 
-import com.poten.attackongoose.domain.UserAccount;
+import com.poten.attackongoose.domain.user.UserAccount;
 import com.poten.attackongoose.service.PrincipalDetailsService;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Header;
