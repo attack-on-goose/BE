@@ -1,9 +1,9 @@
-package com.poten.attackongoose.service;
+package com.poten.attackongoose.service.user;
 
 import com.poten.attackongoose.config.oauth.OAuth2Attributes;
 import com.poten.attackongoose.config.oauth.userinfo.OAuth2UserInfoProvider;
 import com.poten.attackongoose.domain.PrincipalDetails;
-import com.poten.attackongoose.domain.UserAccount;
+import com.poten.attackongoose.domain.user.UserAccount;
 import com.poten.attackongoose.repository.UserAccountRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.oauth2.client.userinfo.DefaultOAuth2UserService;

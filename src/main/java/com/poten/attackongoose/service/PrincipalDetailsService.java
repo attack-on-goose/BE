@@ -1,7 +1,8 @@
 package com.poten.attackongoose.service;
 
 import com.poten.attackongoose.domain.PrincipalDetails;
-import com.poten.attackongoose.domain.UserAccount;
+import com.poten.attackongoose.domain.user.UserAccount;
+import com.poten.attackongoose.service.user.UserAccountService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

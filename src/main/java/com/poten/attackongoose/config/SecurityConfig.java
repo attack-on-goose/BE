@@ -3,7 +3,7 @@ package com.poten.attackongoose.config;
 import com.poten.attackongoose.config.jwt.TokenAuthenticationFilter;
 import com.poten.attackongoose.config.oauth.CustomAuthorizationRequestRepository;
 import com.poten.attackongoose.config.oauth.OAuth2SuccessHandler;
-import com.poten.attackongoose.service.OAuth2UserCustomService;
+import com.poten.attackongoose.service.user.OAuth2UserCustomService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
